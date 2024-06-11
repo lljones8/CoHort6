@@ -1,15 +1,44 @@
 /******************
  * YOUR CODE HERE *
- ******************
+ ******************/
+function getFirstItemFrom(arr){
+  return arr[0]
+   }
+  function getLastItemFrom() {
+  return arr[arr.length -1]  
+  }
+  function getIndex3(arr){
+    if(arr.length <= 4){
+      return arr[arr.length - 1]
+    }else{
+      return arr[3]
+    }
+  }
+  function isLongList(arr) {
+if(arr.length >= 10){
+return true
+}else{
+  return false
+}
+ }
 
-
-
+ function firstItemIsNumber(arr) {
+if(typeof arr[0] === 'number'){
+  return true
+}else{
+  return false
+}
+ }
+function secondCharOfThirdString(arr) {
+if(arr.length = 4) {
+  return arr[2][1]
+} 
+} 
 
  /********************************************
  * CODE DOWN HERE IS FOR INTERNAL USE ONLY. *
  *           PLEASE DON'T TOUCH!            *
  ********************************************/
-
 
 
 if (typeof getFirstItemFrom === 'undefined') {
