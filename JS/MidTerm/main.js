@@ -33,7 +33,7 @@ let arrEven = []
 for(let i = 0; i < arr.length; i++){
 
 
-if(arr[i] % 2 !== 0){
+if(i % 2 !== 0){
 arrOdd.push(arr[i])
 }else{
 arrEven.push(arr[i])   
@@ -42,8 +42,24 @@ arrEven.push(arr[i])
 }
 return arrOdd
 
+function numOddValues(arr){
+let count = 0
+for(let i = 0; i < arr.length; i++){
+ if (arr[i] % 2 !== 0){
+count++
+ }
+ return count
+}
+}
 
 
+function averageStringLength(arr){
+let total = 0
+for(let i = 0; i< arr.length; i++){
+total = total + arr[i].length
+}
+return total / arr.length
+}
 function firstPunctuationIndex(str){
 
 let str = firstPunctuationIndex.indexOf(".", "?", "!")

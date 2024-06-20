@@ -1,11 +1,24 @@
-function isEvenlyDivisible() {
+function isEvenlyDivisible(num1, num2) {
+if(num1 / num2  === 0){
+  return true  
+}else{
+ return false
+}}
 
+function halfSquare(num) {
+if(num * num / 2){
+return num
+}
+  
 }
 
-function halfSquare() {
+function isLong(str) {
+if(str.length >= 15){
+return true
+}else{
+return false  
 }
 
-function isLong() {
 }
 
 function exclaim() {
